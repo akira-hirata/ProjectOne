@@ -271,7 +271,7 @@ footer
 
 @media(max-width: 570px)
 {
-  #links
+  #links span
   {
     font-size: 0.8rem;
   }
@@ -289,6 +289,11 @@ footer
   #links #social a
   {
     margin: 0px 5px;
+  }
+
+  #navbar .logo
+  {
+    font-size: 1.2rem;
   }
 }
 
@@ -313,6 +318,43 @@ footer
   {
     height: auto;
   }
+
+  #navbar .logo
+  {
+    font-size: 1.1rem;
+  }
+
+  #links #contact p
+  {
+    font-size: 0.7rem;
+  }
+
+  #links .container
+  {
+    width: 95%;
+  }
+
+  #links #contact i
+  {
+    margin: 0px 8px;
+  }
 }
 
+@media(max-width: 388px)
+{
+  #navbar .logo
+  {
+    font-size: 0.9rem;
+  }
+
+  #navbar .container
+  {
+    width: 95%;
+  }
+
+  #links #contact i
+  {
+    margin: 0px 5px;
+  }
+}
 
